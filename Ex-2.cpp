@@ -7,8 +7,9 @@ using namespace std;
 int main(int argc, char const* argv[])
 {
 
-	setlocale(0, "ru");
-
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	
 	TodoList tasks("list.txt");
 
 	while (true)
